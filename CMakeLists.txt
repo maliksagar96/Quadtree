@@ -9,8 +9,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(sources
   src/main.cpp
-  src/quadtree.cpp
-)
+  src/Quadtree.cpp
+  src/QuadtreeIO.cpp
+  )
 
 add_executable(${target_name} ${sources})
 target_include_directories(${target_name} PRIVATE include)
